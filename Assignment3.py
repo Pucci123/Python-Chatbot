@@ -10,7 +10,7 @@ import os
 # Load environment variables from .env file
 load_dotenv()
 # Ensure REMOVED_API_KEY is set in the environment
-#os.environ["REMOVED_API_KEY"] = os.getenv("REMOVED_API_KEY", "REMOVED_API_KEY")
+# API line is removed for security reasons
 # Initialize Swarm
 client = Swarm()  # Swarm will use the API key from the environment
 

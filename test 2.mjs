@@ -1,7 +1,7 @@
 import OpenAI from "openai";
 
 const openai = new OpenAI({
-    apiKey: 'REMOVED_API_KEY'
+    apiKey: [remove]
 });
 
 const completion = await openai.chat.completions.create({
